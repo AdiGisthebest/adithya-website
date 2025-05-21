@@ -60,6 +60,7 @@ export default function Home() {
                     <Card className="-background mt-5 shadow-2xl">
                       <CardHeader>
                         <CardTitle>Using Adversarial Training to Create More Robust Planetary Classification using Flux</CardTitle>
+                        <img src="AdversarialExample.png" className="h-full object-cover object-bottom rounded-sm"/>
                         <div className="text-lg font-semibold text-muted-foreground">
                           <a className="inline-flex items-center text-lg leading-tight">Presentation<ChevronRight className="h-5 w-5 align-middle relative top-[-1.5px] stroke-[3] stroke-linecap-round" /></a>
                         </div>
@@ -70,7 +71,6 @@ export default function Home() {
                         <CardTitle>Carnatic Music Classification Using Transformers</CardTitle>
                         <div className="text-lg font-semibold text-muted-foreground">
                           <a className="inline-flex items-center text-lg leading-tight" href="https://github.com/AdiGisthebest/ConvFormer">Github<ChevronRight className="h-5 w-5 align-middle relative top-[-1.5px] stroke-[3] stroke-linecap-round" /></a>
-                          <a className="ml-4 inline-flex items-center text-lg leading-tight">Preprint<ChevronRight className="h-5 w-5 align-middle relative top-[-1.5px] stroke-[3] stroke-linecap-round" /></a>
                         </div>
                       </CardHeader>
                     </Card>
