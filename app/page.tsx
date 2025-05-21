@@ -1,5 +1,5 @@
-import {NavigationMenu, NavigationMenuList, NavigationMenuContent, NavigationMenuLink, NavigationMenuItem, NavigationMenuTrigger} from "@/components/ui/navigation-menu"
-import { Card, CardHeader, CardContent, CardDescription, CardTitle, CardFooter} from "@/components/ui/card"
+import {NavigationMenu, NavigationMenuList} from "@/components/ui/navigation-menu"
+import { Card, CardHeader, CardTitle} from "@/components/ui/card"
 import * as motion from "motion/react-client"
 import { ChevronRight } from "lucide-react"
 export default function Home() {

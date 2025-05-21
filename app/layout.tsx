@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 const newsreader = Newsreader({
   variable: "--font-newsreader",
+  subsets: ["latin"],
 });
 
 const figtree = Figtree({
