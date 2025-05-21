@@ -7,5 +7,5 @@ const nextConfig: NextConfig = {
   basePath: isGitHubPages ? '/adithya-website/' : '',
   assetPrefix: isGitHubPages ? '/adithya-website/' : '',
 };
-
+module.exports = nextConfig;
 export default nextConfig;
